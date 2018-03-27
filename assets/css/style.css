@@ -1,0 +1,47 @@
+html,
+body,
+table,
+table tbody tr td {
+    width: 100%;
+    height: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px 'Special Elite';
+    background: url(../img/crossword.png);
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover {
+    color: #222;
+}
+
+#links {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 128px;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#links .blog {
+    margin-right: 32px;
+}
+
+.hidden {
+    visibility: hidden;
+}
